@@ -1,0 +1,67 @@
+.form-body {
+  display: flex;
+  flex-direction: column;
+  border-color: brown;
+  border-style: dashed;
+  border-radius: 5vw;
+  height: 70vh;
+  width: 40vw;
+}
+.form-container {
+  display: block;
+  transition: opacity 0.5s;
+  opacity: 1;
+  padding-right: 1dvw;
+}
+
+.case-container {
+  display: flex;
+  width: 80vw;
+
+  height: 70vh;
+}
+.preview-container {
+  border-color: rgb(53, 173, 216);
+  border-style: dashed;
+  width: 40vw;
+  border-radius: 5vw;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
+.form-hidden {
+  display: none;
+  opacity: 0;
+}
+.preview-avatar {
+  border-radius: 20vw;
+  border-width: 0.4dvw;
+  border-style: ridge;
+  width: 12vw;
+}
+.preview-visible {
+  display: flex;
+  opacity: 1;
+}
+.first-name-input {
+  width: 20dvw;
+}
+.team-select {
+  width: 15dvw;
+}
+.first-name-div,
+.avatar-div,
+.legend {
+  padding: 2dvw;
+}
+.checkboxes-container {
+  padding-top: 2dvh;
+  padding-bottom: 5dvh;
+}
+.submit-button {
+  width: 20dvw;
+  margin-left: 10dvw;
+}
